@@ -1,11 +1,11 @@
-About python-on-whales
-======================
+About python-on-whales-feedstock
+================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-on-whales-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/python-on-whales/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-on-whales-feedstock/blob/main/LICENSE.txt)
 
 Summary: A Docker client for Python, designed to be fun and intuitive!
 
@@ -143,5 +143,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@chrispyles](https://github.com/chrispyles/)
 * [@yuvipanda](https://github.com/yuvipanda/)
 
