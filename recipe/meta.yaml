@@ -1,5 +1,5 @@
 {% set name = "python-on-whales" %}
-{% set version = "0.66.0" %}
+{% set version = "0.67.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,14 +7,14 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/python-on-whales-{{ version }}.tar.gz
-  sha256: f7511cf2c1c103cfaf09385623cb97fc57c4fe29ef3f2d3148ea6e64e8d85927
+  sha256: 4f0e62fbbee31adf2ec255939b0952df9cef83e7b4c0e9961a2f2045682bc15e
 
 build:
   entry_points:
     - python-on-whales=python_on_whales.command_line_entrypoint:main
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
