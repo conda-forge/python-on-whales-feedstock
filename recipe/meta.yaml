@@ -1,5 +1,5 @@
 {% set name = "python-on-whales" %}
-{% set version = "0.68.0" %}
+{% set version = "0.69.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/python-on-whales-{{ version }}.tar.gz
-  sha256: b62924e6ee1b4618976b81093a578296ada4d4110664c064a8dbc9792a7144a9
+  sha256: 86bef044568e6abd381e63731e03a6536709be129c5934020da403b99f489b5e
 
 build:
   entry_points:
